@@ -24,6 +24,27 @@ body {
   box-shadow: 0 0 20px #454545;
 }
 
+.escolha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.escolha label {
+  color: var(--verde);
+  font-size: 1.4em;
+}
+
+.escolha select {
+  background: var(--verde);
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
 .campos {
   display: flex;
   justify-content: center;

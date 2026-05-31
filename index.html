@@ -12,16 +12,28 @@
     <h1>Central de Códigos</h1>
   </div>
   
+  <div class="escolha">
+    <label for="Escolha o Código">Escolha o Código</label>
+  </div>
+  
+  <div class="escolha">
+    <select name="Primeiro código" id="codigo">
+      <option value="Morse">Morse</option>
+      <option value="Binario">Binário</option>
+      <option value="AlfabetoGalatico">Alfabeto galático</option>
+    </select>
+  </div>
+  
   <div class="campos">
     <label for="Texto para codificar">Texto para codificar</label>
     <textarea name="Primeiro campo" id="campo1" rows="12" placeholder="Digite o texto aqui..."></textarea>
-    <button type="submit">Codificar</button>
+    <button type="submit" onclick="Codificar()">Codificar</button>
   </div>
   
   <div class="campos">
     <label for="Texto para decodificar">Texto para decodificar</label>
     <textarea name="Segundo campo" id="campo2" rows="12" placeholder="Digite o texto aqui..."></textarea>
-    <button type="submit">Decodificar</button>
+    <button type="submit" onclick="Decodificar()">Decodificar</button>
   </div>
   
   <script src="main.js"></script>
